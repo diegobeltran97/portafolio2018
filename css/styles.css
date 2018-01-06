@@ -3,35 +3,45 @@
 	padding: 0;
 	margin: 0;
 }
-header
-{
-	
-	height: 100px;
-}
+
 
 .cover-page
 {
-background-image: url('../images/background.jpg');
-height: 100vh;
+background-image: url('../images/background3.jpg');
 background-size: cover;
+background-repeat: 	no-repeat;
+height:100vh;
+
+}
+.toogle-nav-menu
+{
+	position: fixed;
+	background-color: white;
+	height: 100px;
+    z-index: 20;
 }
 
 
 #toggle {
   display: block;
-  width: 28px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   position: absolute;
   top: 40px;
   left: 40px;
-  background-color: pink;
+  
 }
+
 /*With this we are creating the three lines 
   and we played with the pseudolements of
   span*/
-#toggle span {
+#toggle .center {
   position: relative;
   display: block;
+  width: 26px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
 }
 #toggle span:after,
@@ -41,7 +51,7 @@ background-size: cover;
   position: absolute;
   left: 0;
   top: -9px;
-  z-index: 2;
+  z-index: 20;
   
 }
 
@@ -55,7 +65,7 @@ background-size: cover;
 #toggle span:before {
   width: 100%;
   height: 5px;
-  background-color: #888;
+  background-color: #4b4a4a;
   transition: all 0.3s;
   backface-visibility: hidden;
   border-radius: 2px;
@@ -82,8 +92,8 @@ background-size: cover;
 	left: 100%;
 	width: 100%;
 	height: 100%;
-	background: #fff;
-    z-index: 1;
+	background: #198f89;
+    z-index: 2;
     transition:  .5s;
 }
 ul
@@ -117,4 +127,37 @@ ul li a:hover
 {
 	left: 0;
 	overflow: auto;
+}
+/*finalizado header*/
+.title
+{
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	font-family: 'Roboto';
+	height: 100%;
+
+}
+
+.title figure 
+{
+	height: 200px;
+}
+.title figure img
+{
+	width: 200px;
+	padding-bottom: 10px;
+	
+}
+.title h1
+{
+	top: 50%;
+	font-size: 100px;
+    letter-spacing: 2px;
+    color: #fff;
+    padding: 20px;
+    border: 10px solid #fff;
+    resize: vertical;
+    overflow: auto;
 }
