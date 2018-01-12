@@ -1,0 +1,40 @@
+.profile
+{
+    height:100vh;
+    display: block;
+    
+}
+.profile h3
+{
+   margin: 40px auto;
+   text-align: center;
+   text-transform: 	uppercase;
+}
+.face-lockup
+{ 
+  max-width: 780px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+.face-lockup img
+{
+	width: 100px;
+	height: 100px;
+	background-color: #e5eaee;
+}
+.face-img
+{
+  order: 0;
+ border-radius: 80%;
+ height: 30px;
+ }
+
+ .icon-seo
+{
+    order: 0;
+}
+
+
+
