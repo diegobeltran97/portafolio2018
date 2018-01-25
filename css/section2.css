@@ -1,12 +1,12 @@
 .profile
 {
-    height:100vh;
+   
     display: block;
     
 }
 .profile h3
 {
-   margin: 40px auto;
+   margin: 60px auto;
    text-align: center;
    text-transform: 	uppercase;
 }
@@ -15,6 +15,7 @@
   max-width: 780px;
   width: 100%;
   display: flex;
+  align-items: center;
   justify-content: space-around;
   margin: 0 auto;
 }
@@ -23,18 +24,91 @@
 	width: 100px;
 	height: 100px;
 	background-color: #e5eaee;
+  border-radius: 50%;
 }
-.face-img
-{
-  order: 0;
- border-radius: 80%;
- height: 30px;
- }
+.face-img img {
+  width: 200px;
+  height: 200px;
+}
 
  .icon-seo
 {
     order: 0;
 }
+.blurb
+{
+  max-width: 620px;
+  margin: 50px auto;
+  padding: 0 20px;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 300;
+}
 
+.skill-lockup {
+  max-width: 540px;
+  margin: 100px auto;
+
+  font-family: "Roboto", sans-serif; 
+}
+.skill-lockup:after 
+{
+    content: "";
+    display: table;
+    clear: both; 
+}
+.skill-lockup .skill-unit
+ {
+
+    width: 270px;
+    float: left; 
+  }
+.skill-lockup .skill-unit 
+{
+    width: 270px;
+    float: left; 
+  }
+  .skill-lockup .skill-icons 
+  {
+
+    font-size: 0;
+    margin: 20px 0; }
+    .skill-lockup .skill-icons span 
+    {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      background-color: #001f3f;
+      margin-right: 5px;
+      border-radius: 50%; 
+    }
+
+    .skill-lockup .skill-icons span:after {
+        content: "";
+        display: block;
+        height: 10px;
+        width: 10px;
+        background: #fff;
+        border-radius: 50%;
+        margin: 2px; }
+
+.skill-lockup .skill-icons.skill-1 span:nth-child(n+ 6) {
+      background: #e5eaee; }
+    .skill-lockup .skill-icons.skill-2 span:nth-child(n + 6) {
+      background: #e5eaee; }
+    .skill-lockup .skill-icons.skill-3 span:nth-child(n+ 9) {
+      background: #e5eaee; }
+    .skill-lockup .skill-icons.skill-4 span:nth-child(n+6) {
+      background: #e5eaee; }
+    .skill-lockup .skill-icons.skill-5 span:nth-child(n+5) {
+      background: #e5eaee; }
+    .skill-lockup .skill-icons.skill-6 span:nth-child(n+7) {
+      background: #e5eaee; }
+    .skill-lockup .skill-icons.skill-7 span:nth-child(n+4) {
+      background: #e5eaee; }
+    .skill-lockup .skill-icons.skill-8 span:nth-child(n+4) {
+      background: #e5eaee; }
+    .skill-lockup .skill-icons.skill-9 span:nth-child(n+5) {
+      background: #e5eaee; }
 
 

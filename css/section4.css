@@ -1,0 +1,131 @@
+.contact
+{
+ position: relative;
+ background-color: #10131a;
+ height: 100vh;
+
+}
+.shell 
+{
+  
+    color: #fff;
+    margin: 50px auto;
+    padding: 20px 20px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 300;
+}
+.shell div
+{
+
+    margin: auto;
+    width: 50%;
+    border-bottom: 1px solid #66fcf1;
+    padding: 10px;
+}
+.shell h3
+{
+    width: auto;
+	font-size: 70px;
+	text-align: center;
+	text-transform: uppercase;	
+	font-family: 'Roboto';
+	font-weight: 900;
+}
+.shell p
+{
+	color: #9599a2;
+	margin: 50px auto;
+	font-family: 'Roboto';
+}
+.shell .correo strong
+{
+	color: #fff;
+	font-size: 30px;
+	border: 1px solid #66fcf1;
+	padding: 20px;
+	width: 50%;
+}
+@media screen and (max-width: 800px)
+{
+	.wrapper
+	{
+		overflow: hidden;
+	}
+
+
+}
+@media screen and (max-width: 770px)
+{
+	.profile
+	{
+		position: relative;
+	}
+	.face-lockup 
+	{
+    text-align: center;
+    margin-top: 200px;
+    }
+   .face-img  {
+   	position: absolute;
+   	top: 40px;
+   	left: 40%;
+   }
+    .face-img img {
+      width: 150px;
+      height: 150px;
+    }
+
+  .icon-seo, .icon-layout, .icon-coding, .icon-marketing {
+    display: inline-block;
+   
+     }
+
+
+}
+@media screen and (max-width: 650px)
+{
+  
+  .title figure img
+  {
+  	width: 80px;
+  }
+
+  .title h1
+  {
+	 font-size: 40px;
+	 text-align: center;
+	 border: 2px solid white;
+	 margin: 0 50px;
+	
+	}
+	.face-lockup
+	{
+		display: block;
+	}
+	.skill-lockup
+	{
+		margin-left: 50px;
+	}
+	.works h3
+	{
+		font-size: 20px;
+	}
+	.works h4
+	{
+		font-size: 28px;
+	}
+	.contact
+	{
+		height: 400px;
+	}
+	.contact h3 
+	{
+		font-size: 28px;
+	}
+  .shell .correo strong
+	{
+		font-size: 20px;
+	}
+
+}
