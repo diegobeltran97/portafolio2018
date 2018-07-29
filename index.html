@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="css/section2.css">
   <link rel="stylesheet" href="css/works.css">
   <link rel="stylesheet" href="css/skill.css">
+  <link rel="stylesheet" href="images/fonts/style.css">
 
    <link rel="stylesheet" href="css/section4.css">
 	
@@ -265,12 +266,37 @@
           <h3>Contacto</h3>
         </div>
          
-         <p>Interesado en construir tu marca ?</p>
-         <p class="correo"><strong>DIEGOSASTOQUE97@GMAIL.COM</strong></p>
-         <img src="images/logo3.png"   alt=""  class=" logo wow  fadeInUp" data-wow-delay="1s">
+      <form action="https://formspree.io/diegosastoque97@gmail.com"
+      method="POST">
+        <fieldset class="contact-info">
+          <label > <span>Your Name</span>
+          <input type="text" name="name"></label>
+          
+          <label><span>Your Email</span>
+          <input type="email" name="_replyto"></label>
+        </fieldset>  
+          <label ><span>Tell me about your Project</span>  
+          <textarea name"message"></textarea></label>
+          
+        <fieldset  style="text-align: right">
+          <input type="submit" value="Send">
+        </fieldset>
+</form>
+         
       </div>
      
     </section>
+    <footer id="footer">
+
+      
+        <ul>
+          <li><a href=""><span class="icon-medium">a</span></a></li>
+          <li><a href=""><span class="icon-github">a</span></a></li>
+          
+        </ul>
+      
+    
+    </footer>
 	</div>
 </body>
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>

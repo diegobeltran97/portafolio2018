@@ -9,9 +9,10 @@
 {
   
     color: #fff;
-    margin: 50px auto;
-    padding: 20px 20px;
-    text-align: center;
+    
+	padding: 20px 20px;
+	box-sizing: border-box;
+    
 }
 .shell div
 {
@@ -27,23 +28,60 @@
 	font-size: 70px;
 	text-align: center;
 	text-transform: uppercase;	
-	font-family: 'Roboto';
-	font-weight: 900;
+	
+	font-weight: 200;
 }
-.shell p
+.shell form
 {
-	color: #9599a2;
-	margin: 50px auto;
-	font-family: 'Roboto';
+  max-width: 400px;
+  margin: 10px auto 50px;
 }
-.shell .correo strong
+input , textarea 
 {
-	color: #fff;
-	font-size: 30px;
-	border: 1px solid #66fcf1;
-	padding: 20px;
-	width: 50%;
+ border:3px solid #10131a;
+ width: 100%;
+ box-sizing: border-box;
+ 
 }
+
+input[type="submit"]
+{
+	background-color: #359173;
+	color:#fff;
+	font-size:18px;
+	width: 33%;
+}
+textarea
+{
+	height: 10em;
+}
+input:focus , textarea:focus
+{
+	outline: none;
+	border-color:#17a2b8;
+}
+label texarea
+{
+	border:3px
+}
+fieldset.contact-info label
+{
+ width: 50%;
+ padding-right: 10px;
+ float: left;
+}
+.shell label 
+{
+	display: block;
+	margin-bottom: 20px;
+}
+
+
+.shell label span {
+	display: block;
+}
+
+
 .shell .logo
 {
 	margin-top: 30px;
@@ -119,10 +157,7 @@
 	{
 		font-size: 28px;
 	}
-	.contact
-	{
-		height: 400px;
-	}
+	
 	.contact h3 
 	{
 		font-size: 28px;
