@@ -2,7 +2,7 @@
 {
  position: relative;
  background-color: #10131a;
- height: 100vh;
+ min-height: 70vh;
 
 }
 .shell 
@@ -87,6 +87,28 @@ fieldset.contact-info label
 	margin-top: 30px;
 	padding-bottom: 12px;
 	border-bottom: 1px solid #fff;
+}
+.footer nav
+{
+	margin: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+	background-color: #3c4643;
+	display: flex;
+	justify-content: center;
+
+}
+.footer nav li{
+
+	list-style: none;
+    margin: 10px;
+	
+}
+.footer nav li span{
+	color:#fff;
+	font-size:20px;
 }
 @media screen and (max-width: 800px)
 {
