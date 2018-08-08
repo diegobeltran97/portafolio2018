@@ -53,7 +53,7 @@
 }
 .text p
 {
-	justify-content: center;
+    text-align: left;
 	color: #fff;
 }
 .overlay
